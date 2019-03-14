@@ -1,0 +1,16 @@
+{
+  "name": "flattener",
+  "version": "1.0.0",
+  "description": "A flattener code exercise",
+  "main": "index.js",
+  "repository": "https://github.com/larquin/code_reps",
+  "author": "larquin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^6.0.2"
+  }
+}
