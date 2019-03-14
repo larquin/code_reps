@@ -1,7 +1,7 @@
 'use strict';
 
-class Flattener { 
-  constructor(payload) { 
+class Flattener {
+  constructor(payload) {
     this.payload = payload
   }
 
