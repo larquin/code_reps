@@ -1,16 +1,16 @@
-# Flatten A Nested Object 
+# Flatten A Nested Object
 
-We're both developers on a team that is building a Weather Aggregation service. We scour the internet for weather data, and then we 
+We're both developers on a team that is building a Weather Aggregation service. We scour the internet for weather data, and then we
 serve the data back to our customers. While we don't think this is a very realistic business model, we definitely like working with JSON :)
 
-Our engineering manager has given us a task. We're to take data from [Open Weather Map](https://openweathermap.org/current) and flatten the 
-data in a way that we can serve it back to our customers. 
+Our engineering manager has given us a task. We're to take data from [Open Weather Map](https://openweathermap.org/current) and flatten the
+data in a way that we can serve it back to our customers.
 
 Given this request (you can click the link to see what it returns):
 
 https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
 
-We get the following data back from the API: 
+We get the following data back from the API:
 
 ```
 {
@@ -58,7 +58,7 @@ We get the following data back from the API:
 ```
 
 Our job is simple. We need to take that data payload, and for every nested object, we need to flatten it. So, for example, let's look at this
-particular piece of the JSON we get back from Open Weather Map: 
+particular piece of the JSON we get back from Open Weather Map:
 
 ```
 "coord": {
@@ -67,7 +67,7 @@ particular piece of the JSON we get back from Open Weather Map:
   }
 ```
 
-Our goal is to process this data so it looks like this: 
+Our goal is to process this data so it looks like this:
 
 ```
 {
