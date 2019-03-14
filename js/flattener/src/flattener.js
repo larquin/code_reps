@@ -6,7 +6,7 @@ class Flattener {
   }
 
   flatten() {
-    throw "Nice try, we haven't implemented this yet!"
+    throw new Error("Nice try, we haven't implemented this yet!")
   }
 
 }

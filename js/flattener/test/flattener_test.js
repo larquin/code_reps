@@ -10,7 +10,6 @@ const getAPIData = async (url, key) => {
     let london = `${url}?q=London,uk&appid=${key}`
     const response = await fetch(london);
     const json = await response.json();
-    console.log("Got weather data!");
     return json
   } catch(error) {
     throw "There was an issue getting data..."
