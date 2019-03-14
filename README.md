@@ -1,5 +1,5 @@
-# code reps 
+# code reps
 
-a repo of code exercises 
+A repo of some handy code exercises
 
-# 
+
